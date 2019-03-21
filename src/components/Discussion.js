@@ -10,7 +10,8 @@ export class Discussion extends React.Component {
                 <Header/>
                 <hr/>
                 <div className="space"><h3>Thank you for visiting our website! </h3>
-                <h4>We will have the Discussion postings soon! Please email us if you have any suggestions/ concerns!</h4></div>
+                <h4>We will have the Discussion postings soon! Please email us if you have any suggestions/ concerns!</h4>
+                </div>
                 <Footer/>
             </div>
         )

@@ -1,5 +1,5 @@
 import React from "react"
-import bg from "../bg.jpg";
+import bg1 from "../bg1.jpg";
 
 import {FaEnvelope, FaLocationArrow} from "react-icons/fa/index";
 
@@ -7,8 +7,8 @@ function MainContent(){
     return(
         <div>
             <div align="center">
-                <img src={bg} className="App-bg thumbnail" alt="bg" />
-                <div className="caption"> Empowering Women to Excel in STEM</div>
+                <img src={bg1} className="App-bg thumbnail" alt="bg" />
+
             </div>
 
             <div className="container">
