@@ -7,6 +7,12 @@ import b from "../2.jpg";
 import c from "../c.jpg";
 import d from "../4.jpg";
 import e from "../5.jpg";
+import x from "../x.jpg";
+import y from "../y.jpg";
+import z from "../z.jpg";
+import p from "../p.jpg";
+import q from "../q.jpg";
+import r from "../r.jpg";
 import f from "../6.jpg";
 import g from "../Saugat.jpg";
 import h from "../avash.jpg";
@@ -19,9 +25,10 @@ export class Gallary extends React.Component {
         return (
             <div>
                 <Header/>
+                <hr/>
                 <div className="container">
                     <h3 className="title" align="center">Resume Workshop</h3>
-                    <div className="row">
+                    <div className="row" align="center">
                         <div className="col-md 4">
                             <img src={b} className="image" alt="QnA" />
                         </div>
@@ -33,8 +40,8 @@ export class Gallary extends React.Component {
                         </div>
                     </div>
                     <hr/>
-                    <h3 className="title" align="center">Q&A Session with Dr Theresa Beauboef</h3>
-                    <div className="row">
+                    <h3 className="title" align="center">Q&A Session with Dr Theresa Beaubouef</h3>
+                    <div className="row" align="center">
                         <div className="col-md 4">
                             <img src={d} className="image" alt="QnA" />
                         </div>
@@ -45,10 +52,35 @@ export class Gallary extends React.Component {
                             <img src={f} className="image" alt="QnA" />
                         </div>
                     </div>
+                        <div className="row" align="center">
+                            <div className="col-md 4">
+                                <img src={x} className="image" alt="QnA" />
+                            </div>
+                            <div className="col-md 4">
+                                <img src={y} className="image" alt="QnA" />
+                            </div>
+                            <div className="col-md 4">
+                                <img src={z} className="image" alt="QnA" />
+                            </div>
+                    </div>
+                    <hr/>
+                    <h3 className="title" align="center">Fundraising by T-Shirts</h3>
+                    <div className="row" align="center">
+
+                        <div className="col-md 4">
+                            <img src={p} className="image" alt="QnA" />
+                        </div>
+                        <div className="col-md 4">
+                            <img src={q} className="image" alt="QnA" />
+                        </div>
+                        <div className="col-md 4">
+                            <img src={r} className="image" alt="QnA" />
+                        </div>
+                    </div>
 
                     <hr/>
                     <h3 className="title" align="center">Poster Design Competition Winners</h3>
-                    <div className="row">
+                    <div className="row" align="center">
 
                         <div className="col-md 3">
                             <img src={g} className="image" alt="QnA" />

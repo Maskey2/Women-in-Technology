@@ -1,0 +1,17 @@
+body {
+    background-color: blanchedalmond;
+}
+.space{
+    padding: 50px;
+}
+
+.grey{
+    color: #33363a;
+}
+
+.image {
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}

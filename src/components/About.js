@@ -42,11 +42,11 @@ export class About extends React.Component {
                             <img src={QnA} className="image" alt="QnA" align="right" />
                         </div>
                         <div className="col-md-8">
-                            <h3>Q&A Session with Dr Theresa Beauboef</h3>
+                            <h3>Q&A Session with Dr Theresa Beaubouef</h3>
                             <p className="guest">
-                                <b>Guest Speaker: Dr Theresa Beaubeauf and Mr Cary Riche</b></p>
+                                <b>Guest Speaker: Dr Theresa Beaubouef and Mr Cary Riche</b></p>
                             <ul>
-                                <li>Q&A Session with Dr Theresa Beaubeauf </li>
+                                <li>Q&A Session with Dr Theresa Beaubouef </li>
                                 <li>Speech by Mr Cary Riche, Instrcutor at NTCC </li>
                                 <li >Sandwiches, fruit trays and drinks were provided..</li>
                                 <li>Winner Announcement of Poster Design Competition</li>
