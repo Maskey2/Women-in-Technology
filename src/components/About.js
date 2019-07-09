@@ -1,10 +1,13 @@
 import * as React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import Resume from "../Resume Workshop.jpg";
-import QnA from "../QnASession.jpg";
-import Poster from "../Poster Design Competition.jpg";
-import Tshirt from "../T-shirt.jpg";
+import Resume from "../images/Resume Workshop.jpg";
+import QnA from "../images/QnASession.jpg";
+import Poster from "../images/Poster Design Competition.jpg";
+import Tshirt from "../images/T-shirt.jpg";
+import PublicSpeaking from "../images/p1.jpg";
+import DXC from "../images/dxc0.jpg";
+
 
 import "./About.css"
 
@@ -21,6 +24,41 @@ export class About extends React.Component {
                             <p align="center" className="grey">Women in Technology has General Meetings mostly once or twice a month in STEM buildings. Here are the recent meetings and events organized by WIT.</p>
                         </div>
                     </div>
+
+                    <div className="row resume">
+                        <div className="col-md-4">
+                            <img src={DXC} className="image" alt="logo" align="right"/>
+                        </div>
+                        <div className="col-md-8">
+                            <h3>DXC Company Visit </h3>
+                            <p className="guest">
+                                <b>A Company Tour with Computer Science Faculty and WIT</b></p>
+                            <ul>
+                                <li>Data Science Presentations </li>
+                                <li>Relationship building with WIT group of DXC </li>
+                                <li>Learnt about real work environment of technology field</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr/>
+
+                    <div className="row resume">
+                        <div className="col-md-4">
+                            <img src={PublicSpeaking} className="image" alt="logo" align="right"/>
+                        </div>
+                        <div className="col-md-8">
+                            <h3>Communication and Public Speaking Workshop </h3>
+                            <p className="guest">
+                                <b>Guest Speaker: Dr Clare Procopio</b></p>
+                            <ul>
+                                <li>Learnt about Communication and Public Speaking skills </li>
+                                <li>Exercise and Practice on job interview conversations </li>
+                                <li>Pizza and drinks were provided.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr/>
+
                     <div className="row resume">
                             <div className="col-md-4">
                                 <img src={Resume} className="image" alt="logo" align="right"/>

@@ -1,6 +1,6 @@
 import * as React from "react";
 import Footer from "./Footer";
-import logo from "../logo.png";
+import logo from "../images/logo.png";
 import {NavLink} from "react-router-dom";
 import Header from "./Header";
 import MainContent from "./MainContent";

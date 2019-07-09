@@ -1,8 +1,8 @@
 import React from "react"
-import fb from "../fb.png";
-import ig from "../ig.png";
-import selu from "../slu.png";
-import logo from "../logo.png";
+import fb from "../images/fb.png";
+import ig from "../images/ig.png";
+import selu from "../images/slu.png";
+import logo from "../images/logo.png";
 
 function Footer(){
     return(

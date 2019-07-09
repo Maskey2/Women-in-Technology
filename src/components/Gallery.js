@@ -1,7 +1,7 @@
 import * as React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import "./Gallary.css"
+import "./Gallery.css"
 import a from "../images/1.jpg";
 import b from "../images/2.jpg";
 import c from "../images/c.jpg";
@@ -18,11 +18,14 @@ import g from "../images/Saugat.jpg";
 import h from "../images/avash.jpg";
 import i from "../images/Bibesh.png";
 import j from "../images/Akriti.jpg";
-import p1 from "../images/p1.jpg";
+import p4 from "../images/p4.jpeg";
 import p2 from "../images/p2.jpeg";
 import p3 from "../images/p3.jpeg";
+import dxc1 from "../images/dxc2.jpg";
+import dxc2 from "../images/dxc3.jpg";
+import dxc3 from "../images/dxc4.png";
 
-export class Gallary extends React.Component {
+export class Gallery extends React.Component {
     render() {
         return (
             <div>
@@ -30,10 +33,25 @@ export class Gallary extends React.Component {
                 <hr/>
                 <div className="container">
 
+                    <h3 className="title" align="center">DXC Technology Visit</h3>
+                    <div className="row" align="center">
+                        <div className="col-md 4">
+                            <img src={dxc1} className="image" alt="QnA" />
+                        </div>
+                        <div className="col-md 4">
+                            <img src={dxc2} className="image" alt="QnA" />
+                        </div>
+                        <div className="col-md 4">
+                            <img src={dxc3} className="image" alt="QnA" />
+                        </div>
+                    </div>
+                    <hr/>
+
+
                     <h3 className="title" align="center">Communication and Public Speaking Workshop</h3>
                     <div className="row" align="center">
                         <div className="col-md 4">
-                            <img src={p1} className="image" alt="QnA" />
+                            <img src={p4} className="image" alt="QnA" />
                         </div>
                         <div className="col-md 4">
                             <img src={p2} className="image" alt="QnA" />
@@ -119,4 +137,4 @@ export class Gallary extends React.Component {
         )
     }
 }
-export default Gallary
+export default Gallery

@@ -1,5 +1,5 @@
 import React from "react"
-import bg1 from "../bg1.jpg";
+import bg1 from "../images/bg1.jpg";
 
 import {FaEnvelope, FaLocationArrow} from "react-icons/fa/index";
 

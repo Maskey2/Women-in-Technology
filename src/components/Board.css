@@ -1,4 +1,8 @@
-.bgg{
-    padding: 30px;
-    background-color: blanchedalmond;
+.space{
+    margin: 20px;
+    border: 1px solid lightgrey;
+    background-color: honeydew;
+}
+.title{
+    color: darkblue;
 }
