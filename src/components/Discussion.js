@@ -16,7 +16,7 @@ export class Discussion extends React.Component {
                         <h4 className="logo1">Discussions about Women in Technology!  </h4>
                     </header>
 
-<div className="container marpad">
+<div className="container ">
                 <h4><strong>#1 Let's hear what our ex-president of Women in Technnology at Southeastern Ms Sneha Sharma has to say about WIT and Southeastern! She is currently
                     working as a Risk Manager at Coface North America Insurance Company in New York. She graduated from SELU with Mathematics major in 2015.</strong>
                     </h4>

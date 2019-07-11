@@ -136,7 +136,7 @@ export class About extends React.Component {
                         <h4 className="logo1">Meetings and Events     </h4>
                     </header>
 
-                    <div className="container marpad">
+                    <div className="container ">
                     <section className="intro">
                         <div className="column" align="center">
                             <img src={meeting} alt="" className="meeting"/></div>

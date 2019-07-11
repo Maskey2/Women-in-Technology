@@ -35,7 +35,7 @@ export class Gallery extends React.Component {
                     <header className="header">
                         <h4 className="logo1">Gallery   </h4>
                     </header>
-                    <div className="container marpad">
+                    <div className="container ">
                     <h3 className="title" align="center">DXC Technology Visit</h3>
                     <div className="row" align="center">
                         <div className="col-md 4">
