@@ -7,11 +7,11 @@ function MainContent(){
     return(
         <div>
             <div align="center">
-                <img src={bg1} className="App-bg thumbnail" alt="bg" />
+                <img src={bg1} className="App-bg" alt="bg" />
 
             </div>
 
-            <div className="container">
+            <div className="container ">
                   <div className="row">
                       <div className="col-md-8 info1">
                           <li>Women in Technology is founded by Kristen Reeves and Sara Moore in 2012</li>

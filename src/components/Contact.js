@@ -9,9 +9,12 @@ export class Contact extends React.Component {
         return (
             <div>
                 <Header/>
-                <div className="space">
-                    <h3>Contact Information</h3>
-<hr/>
+                <div className="container1">
+                    <header className="header">
+                        <h4 className="logo1">Contact Information  </h4>
+                    </header>
+
+                    <div className="container marpad" >
                     <div className='text'><FaLocationArrow /> <div className='text'>
                         <h3>Location</h3></div></div>
                     <p>Southeastern Louisiana University, 500 W University Ave, Hammond, LA 70402</p>
@@ -21,6 +24,7 @@ export class Contact extends React.Component {
                         <h3>Email</h3></div></div>
                     <p>  slu_wit@southeastern.edu</p>
                     <p>  Nishma Maskey: nishma.maskey@selu.edu</p>
+                </div>
                 </div>
                 <Footer/>
             </div>

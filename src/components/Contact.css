@@ -15,3 +15,7 @@ body {
     max-width: 250px;
     height: auto;
 }
+.marpad{
+    padding: 20px;
+    margin: 25px;
+}

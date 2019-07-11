@@ -30,9 +30,12 @@ export class Gallery extends React.Component {
         return (
             <div>
                 <Header/>
-                <hr/>
-                <div className="container">
 
+                <div className="container1">
+                    <header className="header">
+                        <h4 className="logo1">Gallery   </h4>
+                    </header>
+                    <div className="container marpad">
                     <h3 className="title" align="center">DXC Technology Visit</h3>
                     <div className="row" align="center">
                         <div className="col-md 4">
@@ -131,6 +134,7 @@ export class Gallery extends React.Component {
                             <img src={j} className="image" alt="QnA" />
                         </div>
                     </div>
+                </div>
                 </div>
                 <Footer/>
             </div>
