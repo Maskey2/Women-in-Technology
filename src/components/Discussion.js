@@ -6,20 +6,33 @@ import Sneha from "../images/Sneha.jpg";
 import p from "../images/p.jpg";
 
 export class Discussion extends React.Component {
+
     render() {
+        const date = new Date()
+        const hours = date.getHours()
+        let timeOfDay
+
+        if (hours < 12) {
+            timeOfDay = "Good Morning folks!"
+        } else if (hours >= 12 && hours < 17) {
+            timeOfDay = "Good Afternoon folks!"
+        } else {
+            timeOfDay = "Hello there!"
+        }
         return (
             <div>
                 <Header/>
 
                 <div className="container1">
                     <header className="header">
-                        <h4 className="logo1">Discussions about Women in Technology!  </h4>
+                        <h4 className="logo1"> {timeOfDay} Discussions about Women in Technology!  </h4>
                     </header>
 
-<div className="container ">
-                <h4><strong>#1 Let's hear what our ex-president of Women in Technnology at Southeastern Ms Sneha Sharma has to say about WIT and Southeastern! She is currently
-                    working as a Risk Manager at Coface North America Insurance Company in New York. She graduated from SELU with Mathematics major in 2015.</strong>
-                    </h4>
+<div className="container">
+    <br/>
+                <h4><strong>#1 Let's hear what our ex-president of Women in Technnology at Southeastern Ms Sneha Sharma has to say about WIT and Southeastern!</strong> </h4>
+                    <h5>Ms Sharma is currently working as a Risk Manager at Coface North America Insurance Company in New York. She graduated from SELU with Mathematics major in 2015.</h5>
+
                     <div className="row">
                         <div className="col-md-3">
                             <div className="image" align="right">

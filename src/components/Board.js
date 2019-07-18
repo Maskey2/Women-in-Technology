@@ -10,6 +10,10 @@ import thanku from "../images/thanku.jpg";
 import team from "../images/team.gif";
 import teamwork from "../images/teamwork.jpg";
 import team2 from "../images/team2.gif";
+import Pratikshya from "../images/Pratikshiya.jpg"
+import Vu from "../images/Vu.jpeg"
+import Lisa from "../images/DrLisa.jpg"
+import Allanagh from "../images/MsAllanagh.jpg"
 
 
 export class Board extends React.Component {
@@ -75,10 +79,10 @@ export class Board extends React.Component {
                             <div className="thumbnail"><img src={Nishma} alt="" className="cards"/>
                                 <h4>Nishma Maskey</h4>
                                 <p className="tag">President</p>
-                                <p>Nishma Maskey is a senior majoring in Computer Science and minoring in Mathematics.
-                                    She is also a graphic designer. She is a aspiring web developer. She is a current
-                                    web developer intern at Texas Commission in Environment Quality in Austin, Texas.
-                                    She likes to watch movies, play guitar and be artistic in leisure time.</p>
+                                <p>Nishma is a senior majoring in Computer Science and minoring in Mathematics.
+                                    She is also a graphic designer. She is a aspiring Web/ UX developer. She is a current
+                                    Web developer intern at Texas Commission in Environment Quality in Austin, Texas. She is originally from Nepal.
+                                    She likes to watch movies, travel, play guitar and be artistic in leisure time.</p>
                             </div>
                             <div className="thumbnail"><a href="#"><img src={Ashlynn} alt=""  className="cards"/></a>
                                 <h4>Ashlynn Martell</h4>
@@ -88,13 +92,13 @@ export class Board extends React.Component {
                                     ITinspired in Baton Rouge. When she isn’t staring at a computer screen she enjoys
                                     spending time with her dachshund Rocky and enjoying nature.</p>
                             </div>
-                            <div className="thumbnail"><img src={user} alt=""  className="cards"/>
+                            <div className="thumbnail"><img src={Vu} alt=""  className="cards"/>
                                 <h4>Quynh Vu</h4>
                                 <p className="tag">Public Relation Officer</p>
-                                <p>abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde
-                                    abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde
-                                    abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde
-                                    abcde abcde abcde abcde abcde abcde abcde abcde abcde  </p>
+                                <p>Quynh is a junior majoring in Computer Engineering with a minor in IT.
+                                    She works part-time during school and full-time during the summer at a salon in Covington. When there's
+                                    free time, she likes to hang out with friends, sing her heart out while cooking, watch movies and anime,
+                                    play Overwatch on Xbox, and admire other people's pets on the internet.  </p>
                             </div>
                         </div>
                         <div className="gallery">
@@ -102,29 +106,33 @@ export class Board extends React.Component {
                                 <h4>Sijan Tiwari</h4>
                                 <p className="tag">Treasurer</p>
                                 <p>abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde
-                                    abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde</p>
+                                    abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde
+                                    abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde
+                                    abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde</p>
                             </div>
                             <div className="thumbnail thumb"> <img  src={team2} className="team"/>
                             </div>
-                            <div className="thumbnail "><img src={user} alt=""  className="cards"/>
+                            <div className="thumbnail "><img src={Pratikshya} alt=""  className="cards"/>
                                 <h4>Pratikshya Timalsina</h4>
                                 <p className="tag">Secretary</p>
-                                <p>abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde
-                                    abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde</p>
+                                <p>Pratikshya is pursuing her Bachelor's degree Computer Science and minoring in Mathematics. Currently
+                                    she is working as a Summer Intern at DXC Technology at NOLA. She is interested in Fullstack Web development.
+                                    She loves to play piano, go for adventure sports such as white water rafting
+                                    and paragliding and she enjoys road trips too. </p>
                             </div>
 
                         </div>
                         <hr/>
                     <h2 align="center"><strong>Faculty Advisers</strong></h2>
                         <div className="gallery">
-                            <div className="thumbnail"><img src={user} alt="" className="cards"/>
+                            <div className="thumbnail"><img src={Lisa} alt="" className="cards"/>
                                 <h4>Mathematics Professor at Southeastern Louisiana University</h4>
                                 <p className="tag">Dr Lisa Kuhn</p>
                             </div>
                             <div className="thumbnail thumb"><img src={thanku} alt="" className="thanku"/>
                             </div>
-                            <div className="thumbnail"><a href="#"><img src={user} alt=""  className="cards"/></a>
-                                <h4>Computer Science Instructor at Southeastern Louisiana University</h4>
+                            <div className="thumbnail"><a href="#"><img src={Allanagh} alt=""  className="cards"/></a>
+                                <h4 style={{fontSize: 23}}>Computer Science Instructor at Southeastern Louisiana University</h4>
                                 <p className="tag">Ms Allanagh Sewell</p>
                             </div>
                         </div>

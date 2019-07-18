@@ -39,13 +39,13 @@ export class Gallery extends React.Component {
                     <h3 className="title" align="center">DXC Technology Visit</h3>
                     <div className="row" align="center">
                         <div className="col-md 4">
-                            <img src={dxc1} className="image" alt="QnA" />
+                            <img src={dxc1} className="gallery" alt="QnA" />
                         </div>
                         <div className="col-md 4">
-                            <img src={dxc2} className="image" alt="QnA" />
+                            <img src={dxc2} className="gallery" alt="QnA" />
                         </div>
                         <div className="col-md 4">
-                            <img src={dxc3} className="image" alt="QnA" />
+                            <img src={dxc3} className="gallery" alt="QnA" />
                         </div>
                     </div>
                     <hr/>
@@ -54,13 +54,13 @@ export class Gallery extends React.Component {
                     <h3 className="title" align="center">Communication and Public Speaking Workshop</h3>
                     <div className="row" align="center">
                         <div className="col-md 4">
-                            <img src={p4} className="image" alt="QnA" />
+                            <img src={p4} className="gallery" alt="QnA" />
                         </div>
                         <div className="col-md 4">
-                            <img src={p2} className="image" alt="QnA" />
+                            <img src={p2} className="gallery" alt="QnA" />
                         </div>
                         <div className="col-md 4">
-                            <img src={p3} className="image" alt="QnA" />
+                            <img src={p3} className="gallery" alt="QnA" />
                         </div>
                     </div>
                     <hr/>
@@ -68,13 +68,13 @@ export class Gallery extends React.Component {
                     <h3 className="title" align="center">Resume Workshop</h3>
                     <div className="row" align="center">
                         <div className="col-md 4">
-                            <img src={b} className="image" alt="QnA" />
+                            <img src={b} className="gallery" alt="QnA" />
                         </div>
                         <div className="col-md 4">
-                            <img src={c} className="image" alt="QnA" />
+                            <img src={c} className="gallery" alt="QnA" />
                         </div>
                         <div className="col-md 4">
-                            <img src={a} className="image" alt="QnA" />
+                            <img src={a} className="gallery" alt="QnA" />
                         </div>
                     </div>
                     <hr/>
@@ -82,24 +82,24 @@ export class Gallery extends React.Component {
                     <h3 className="title" align="center">Q&A Session with Dr Theresa Beaubouef</h3>
                     <div className="row" align="center">
                         <div className="col-md 4">
-                            <img src={d} className="image" alt="QnA" />
+                            <img src={d} className="gallery" alt="QnA" />
                         </div>
                         <div className="col-md 4">
-                            <img src={e} className="image" alt="QnA" />
+                            <img src={e} className="gallery" alt="QnA" />
                         </div>
                         <div className="col-md 4">
-                            <img src={f} className="image" alt="QnA" />
+                            <img src={f} className="gallery" alt="QnA" />
                         </div>
                     </div>
                         <div className="row" align="center">
                             <div className="col-md 4">
-                                <img src={x} className="image" alt="QnA" />
+                                <img src={x} className="gallery" alt="QnA" />
                             </div>
                             <div className="col-md 4">
-                                <img src={y} className="image" alt="QnA" />
+                                <img src={y} className="gallery" alt="QnA" />
                             </div>
                             <div className="col-md 4">
-                                <img src={z} className="image" alt="QnA" />
+                                <img src={z} className="gallery" alt="QnA" />
                             </div>
                     </div>
                     <hr/>
@@ -107,13 +107,13 @@ export class Gallery extends React.Component {
                     <div className="row" align="center">
 
                         <div className="col-md 4">
-                            <img src={p} className="image" alt="QnA" />
+                            <img src={p} className="gallery" alt="QnA" />
                         </div>
                         <div className="col-md 4">
-                            <img src={q} className="image" alt="QnA" />
+                            <img src={q} className="gallery" alt="QnA" />
                         </div>
                         <div className="col-md 4">
-                            <img src={r} className="image" alt="QnA" />
+                            <img src={r} className="gallery" alt="QnA" />
                         </div>
                     </div>
 
@@ -122,16 +122,16 @@ export class Gallery extends React.Component {
                     <div className="row" align="center">
 
                         <div className="col-md 3">
-                            <img src={g} className="image" alt="QnA" />
+                            <img src={g} className="gallery" alt="QnA" />
                         </div>
                         <div className="col-md 3">
-                            <img src={h} className="image" alt="QnA" />
+                            <img src={h} className="gallery" alt="QnA" />
                         </div>
                         <div className="col-md 3">
-                            <img src={i} className="image" alt="QnA" />
+                            <img src={i} className="gallery" alt="QnA" />
                         </div>
                         <div className="col-md 3">
-                            <img src={j} className="image" alt="QnA" />
+                            <img src={j} className="gallery" alt="QnA" />
                         </div>
                     </div>
                 </div>

@@ -14,7 +14,7 @@ export class Contact extends React.Component {
                         <h4 className="logo1">Contact Information  </h4>
                     </header>
 
-                    <div className="container marpad" >
+                    <div className="container marpad" align="center">
                     <div className='text'><FaLocationArrow /> <div className='text'>
                         <h3>Location</h3></div></div>
                     <p>Southeastern Louisiana University, 500 W University Ave, Hammond, LA 70402</p>

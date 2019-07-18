@@ -146,7 +146,7 @@ export class About extends React.Component {
                         </div>
                     </section>
 
-                    <div className="gallery1">
+                    <div className="gallery">
                         <div className="thumbnail1"><a href="#"><img src={DXC} alt=""      className="card"/></a>
                             <h4>DXC Company Visit</h4>
                             <p className="tag">A Company Tour with Computer Science Faculty and WIT Team</p>
@@ -193,7 +193,7 @@ export class About extends React.Component {
 
                             </ol>
                         </div>
-                        <div className="thumbnail1 poster"><a href="#"><img src={Poster} alt=""      className="card"/></a>
+                        <div className="thumbnail1 poster"><a href="#"><img src={Poster} alt=""      className="card"/></a><br/>
                             <h4>Poster Design Competition</h4>
 
                             <ol className="left">
