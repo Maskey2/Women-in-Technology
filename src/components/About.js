@@ -136,7 +136,7 @@ export class About extends React.Component {
                         <h4 className="logo1">Meetings and Events     </h4>
                     </header>
 
-                    <div className="container ">
+                    
                     <section className="intro">
                         <div className="column" align="center">
                             <img src={meeting} alt="" className="meeting"/></div>
@@ -147,16 +147,18 @@ export class About extends React.Component {
                     </section>
 
                     <div className="gallery">
-                        <div className="thumbnail1"><a href="#"><img src={DXC} alt=""      className="card"/></a>
+                        <div className="thumbnail">
+                            <img src={DXC} alt="" className="cards"/>
                             <h4>DXC Company Visit</h4>
                             <p className="tag">A Company Tour with Computer Science Faculty and WIT Team</p>
                             <ol className="left">
                                 <li>Data Science Presentations</li>
                                 <li> Relationship building with WIT group of DXC</li>
                                 <li>Learnt about real world work environment</li>
+                                <li>DXC building Tour</li>
                             </ol>
                         </div>
-                        <div className="thumbnail1"><a href="#"><img src={PublicSpeaking} alt=""           className="card"/></a>
+                        <div className="thumbnail"><img src={PublicSpeaking} alt=""           className="cards"/>
                             <h4>Communication and Public Speaking Workshop</h4>
                             <p className="tag">Guest Speaker: Dr Clare Procopio</p>
                             <ol className="left">
@@ -167,12 +169,13 @@ export class About extends React.Component {
                                 <li>Pizza and drinks were provided.</li>
                             </ol>
                         </div>
-                        <div className="thumbnail1"><img src={Resume} alt=""       className= "card"/>
+                        <div className="thumbnail"><img src={Resume} alt=""       className= "cards"/>
                             <h4>Resume Workshop</h4>
                             <p className="tag">Guest Speaker: Ms Elle Overholt</p>
                             <ol className="left">
                                 <li>Updated Resumes, built connections and enhanced professional network development
                                 </li>
+                                <li>Career Development tips and tricks</li>
                                 <li>Learnt how to move one step closer to the dream job</li>
                                 <li>Pizza and drinks were provided.</li>
                             </ol>
@@ -180,7 +183,7 @@ export class About extends React.Component {
                     </div>
                     <div className="gallery1">
 
-                        <div className="thumbnail1"><a href="#"><img src={QnA} alt=""          className="card"/></a>
+                        <div className="thumbnail"><a href="#"><img src={QnA} alt=""          className="cards"/></a>
                             <h4>Q&A Session with Dr Theresa Beaubouef</h4>
                             <p className="tag">Guest Speaker: Dr Theresa Beaubouef and Mr Cary Riche</p>
                             <ol className="left">
@@ -193,7 +196,7 @@ export class About extends React.Component {
 
                             </ol>
                         </div>
-                        <div className="thumbnail1 poster"><a href="#"><img src={Poster} alt=""      className="card"/></a><br/>
+                        <div className="thumbnail poster"><a href="#"><img src={Poster} alt=""      className="cards"/></a><br/>
                             <h4>Poster Design Competition</h4>
 
                             <ol className="left">
@@ -210,7 +213,7 @@ export class About extends React.Component {
                                 </li>
                             </ol>
                         </div>
-                        <div className="thumbnail1 tshirt"><img src={Tshirt} alt="" className="card"/>
+                        <div className="thumbnail tshirt"><img src={Tshirt} alt="" className="cards"/>
                             <h4>Fundraising by T-Shirt Design</h4>
                             <p className="tag">WIT Design/ Custom Design : $8</p>
                             <ol className="left">
@@ -218,10 +221,11 @@ export class About extends React.Component {
                                 <li>The prints for the shirts are 8*11 size.</li>
                                 <li>The shirts are 100% Cotton white shirts.</li>
                                 <li>Please contact WIT Team if you'd like to support us by purchasing the shirt!</li>
+                                <li>Contact slu_wit@southeastern.edu for more info</li>
                             </ol>
                         </div>
 
-                    </div></div></div>
+                    </div></div>
 
                <Footer/>
             </div>

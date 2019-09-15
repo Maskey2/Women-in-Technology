@@ -1,21 +1,20 @@
 body {
-    background-color: blanchedalmond;
+  background-color: blanchedalmond;
 }
-.space{
-    padding: 50px;
+.space {
+  padding: 50px;
 }
 
-.grey{
-    color: #33363a;
+.grey {
+  color: #33363a;
 }
 
 .image {
-    padding: 10px;
-    width: 100%;
-    max-width: 250px;
-    height: auto;
+  padding: 10px;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
 }
-.marpad{
-    padding: 20px;
-    margin: 25px;
+.marpad {
+  padding: 20px;
 }
