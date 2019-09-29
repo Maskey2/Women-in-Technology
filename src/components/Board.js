@@ -71,7 +71,7 @@ export class Board extends React.Component {
           </header>
 
           <div className="container" align="center">
-            <img src={team} className="responsive" />
+            <img src={team} alt="" className="responsive" />
             <h3>
               Women in Technology Team has wonderful and hard- working officers!
               They are Southeastern students in STEM field.
@@ -80,28 +80,30 @@ export class Board extends React.Component {
 
           <div className="gallery">
             <div className="thumbnail">
-              <img src={Nishma} alt="" className="cards" />
-              <h4>Nishma Maskey</h4>
-              <p className="tag">President</p>
-              <p>
-                Nishma is a senior majoring in Computer Science and minoring in
-                Mathematics. She is also a graphic designer. She is a aspiring
-                Web/ UX developer. She is a current Web developer intern at
-                Texas Commission in Environment Quality in Austin, Texas. She is
-                originally from Nepal. She likes to watch movies, travel, play
-                guitar and be artistic in leisure time.
-              </p>
+              <a href="http://nishmaskey.com.np">
+                <img src={Nishma} alt="" className="cards" />
+                <h4>Nishma Maskey</h4>
+                <p className="tag">President</p>
+                <p>
+                  Nishma is a senior majoring in Computer Science and minoring
+                  in Mathematics. She is also a graphic designer. She is an
+                  aspiring Web/ UX developer. She recently interned as a Web
+                  developer and Accessibility intern at Texas Commission in
+                  Environment Quality in Austin, Texas. She is originally from
+                  Nepal. She likes to watch movies, travel, play guitar and be
+                  artistic in leisure time.
+                </p>
+              </a>
             </div>
             <div className="thumbnail">
-              <a href="#">
-                <img src={Ashlynn} alt="" className="cards" />
-              </a>
+              <img src={Ashlynn} alt="" className="cards" />
+
               <h4>Ashlynn Martell</h4>
               <p className="tag">Vice President</p>
               <p>
                 Ashlynn is a current sophomore working on a Computer Science
                 degree in the Scientific concentration. She is also Treasurer of
-                ACM-W, a member of ACM, and an intern at ITinspired in Baton
+                ACM-W, a member of ACM, and a Summer intern at ITinspired in Baton
                 Rouge. She is also a CS tutor in Southeastern. When she isn’t
                 staring at a computer screen she enjoys spending time with her
                 dachshund Rocky and enjoying nature.
@@ -145,7 +147,7 @@ export class Board extends React.Component {
               <p className="tag">Secretary</p>
               <p>
                 Pratikshya is pursuing her Bachelor's degree Computer Science
-                and minoring in Mathematics. Currently she is working as a
+                and minoring in Mathematics. Recently she worked as a
                 Summer Intern at DXC Technology at NOLA. She is interested in
                 Fullstack Web development. She loves to play piano, go for
                 adventure sports such as white water rafting and paragliding and
@@ -169,9 +171,8 @@ export class Board extends React.Component {
               <img src={thanku} alt="" className="thanku" />
             </div>
             <div className="thumbnail">
-              <a href="#">
-                <img src={Allanagh} alt="" className="cards" />
-              </a>
+              <img src={Allanagh} alt="" className="cards" />
+
               <h4 style={{ fontSize: 23 }}>
                 Computer Science Instructor at Southeastern Louisiana University
               </h4>

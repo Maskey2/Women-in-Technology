@@ -2,6 +2,7 @@ import * as React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import "./Contact.css"
+import con from "../images/contact.jpg";
 import {FaEnvelope, FaLocationArrow} from "react-icons/fa";
 
 export class Contact extends React.Component {
@@ -13,19 +14,10 @@ export class Contact extends React.Component {
                     <header className="header">
                         <h4 className="logo1">Contact Information  </h4>
                     </header>
-
-                    <div className="container marpad" align="center">
-                    <div className='text'><FaLocationArrow /> <div className='text'>
-                        <h3>Location</h3></div></div>
-                    <p>Southeastern Louisiana University, 500 W University Ave, Hammond, LA 70402</p>
-
-                    <div className='text'>
-                        <FaEnvelope /> <div className='text'>
-                        <h3>Email</h3></div></div>
-                    <p>  slu_wit@southeastern.edu</p>
-                    <p>  Nishma Maskey: nishma.maskey@selu.edu</p>
-                </div>
-                </div>
+                    </div>
+                    <div align="center">
+                   <img src={con} alt="Location and Number"className="contactimage"/>   
+                   </div>             
                 <Footer/>
             </div>
         )

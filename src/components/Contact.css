@@ -1,13 +1,6 @@
 body {
   background-color: blanchedalmond;
 }
-.space {
-  padding: 50px;
-}
-
-.grey {
-  color: #33363a;
-}
 
 .image {
   padding: 10px;
@@ -17,4 +10,10 @@ body {
 }
 .marpad {
   padding: 20px;
+}
+.contactimage{
+  padding: 10px;
+  height: auto;
+  max-width: 50%;
+  text-align: center;
 }

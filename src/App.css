@@ -1,8 +1,19 @@
-@-ms-viewport{
+@-ms-viewport {
   width: device-width;
 }
+a {
+  text-decoration: none;
+}
 body {
-  font-family: "Calisto MT", serif;
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "Poppins", sans-serif;
 }
 .bg {
   background-color: blanchedalmond;
@@ -11,17 +22,17 @@ body {
   padding-left: 60px;
   padding-top: 40px;
 }
-.responsive{
+.responsive {
   width: 100%;
   max-width: 300px;
   height: auto;
 }
-.App-bg{
+.App-bg {
   margin-top: 20px;
-  max-width: 100%;
-  display: block;
+  width: 100%;
+  height: auto;
 }
-.thumbnail{
+.thumbnail {
   position: relative;
   display: inline-block;
 }
@@ -29,10 +40,10 @@ body {
   position: absolute;
   top: 60%;
   left: 50%;
-  transform: translate( -50%, -50% );
+  transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  font-size:60px;
+  font-size: 60px;
 }
 .navbar {
   flex-direction: row;
@@ -42,8 +53,11 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-size: 16px;
 }
-ul.topnav li {float: left;}
+ul.topnav li {
+  float: left;
+}
 ul.topnav li a {
   display: block;
   color: black;
@@ -51,63 +65,75 @@ ul.topnav li a {
   padding: 8px 10px;
   text-decoration: none;
 }
-ul.topnav li a.active {color: cadetblue;}
-ul.topnav li a:hover:not(.active) {color:cadetblue;}
-ul.topnav li.right {float: right;}
+ul.topnav li a.active {
+  color: cadetblue;
+}
+ul.topnav li a:hover:not(.active) {
+  color: cadetblue;
+}
+ul.topnav li.right {
+  float: right;
+}
 
 @media screen and (max-width: 600px) {
   ul.topnav li.right,
-  ul.topnav li {float: none;}
+  ul.topnav li {
+    float: none;
+  }
 }
-.info1{
-  padding: 50px;
-  font-family: Ahorani, serif;
-
+.info1 {
+  padding: 40px;
+  font-size: 19px;
 }
-.info2{
-  padding: 50px;
-  font-family: Ahorani, serif;
+.info2 {
+  padding: 40px;
+  font-size: 19px;
 }
-.text{
+.text {
   color: maroon;
   display: inline-block;
 }
 .test:after {
-  display:inline-block;
+  display: inline-block;
 }
-.quote{
-  padding: 100px;
+.quote {
+  padding: 80px;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
 }
-
-
-.footer{
-  margin-top: 20px;
+.link {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.footer {
   background-color: #33363a;
   height: 300px;
   color: darkgray;
   padding-top: 50px;
 }
-.sm1{
+.sm1 {
   max-width: 50px;
 }
-.sm2{
+.sm2 {
   max-width: 37px;
 }
-.sm3{
+.sm3 {
   margin: 15px;
-max-width: 150px;
+  max-width: 150px;
 }
-.Nishma{
+.Nishma {
   margin-top: 40px;
   color: darkgrey;
   font-size: 10px;
 }
 
 /*@keyframes App-logo-spin {*/
-  /*from {*/
-    /*transform: rotate(0deg);*/
-  /*}*/
-  /*to {*/
-    /*transform: rotate(360deg);*/
-  /*}*/
+/*from {*/
+/*transform: rotate(0deg);*/
+/*}*/
+/*to {*/
+/*transform: rotate(360deg);*/
+/*}*/
 /*}*/

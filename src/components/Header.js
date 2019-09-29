@@ -9,7 +9,7 @@ function Header(){
     <img src={logo} className="App-logo responsive" alt="logo" />
         <ul className="topnav">
             <li className="right"> <NavLink to="/Contact" exact>Contact</NavLink></li>
-            <li className="right"> <NavLink to="/Donate"  exact>Donate</NavLink></li>
+            <li className="right"> <NavLink to="/Event"  exact>Events</NavLink></li>
             <li className="right"> <NavLink to="/Discussion"  exact>Discussion</NavLink></li>
             <li className="right"> <NavLink to="/Gallery"  exact>Gallery</NavLink></li>
             <li className="right"> <NavLink to="/Board"  exact>Board</NavLink></li>
